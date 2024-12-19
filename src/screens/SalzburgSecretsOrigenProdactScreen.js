@@ -98,7 +98,8 @@ const SalzburgSecretsOrigenProdactScreen = ({navigation, route}) => {
       //console.log('івент webview_open !!!');
     }, 500);
   }, []);
-
+  {
+    /** 
   useEffect(() => {
     getData();
   }, []);
@@ -166,7 +167,8 @@ const SalzburgSecretsOrigenProdactScreen = ({navigation, route}) => {
       //console.log('Помилка отримання даних:', e);
     }
   };
-
+*/
+  }
   // кастомний юзерагент
   const deviceInfo = {
     deviceBrand: DeviceInfo.getBrand(),
