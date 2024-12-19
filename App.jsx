@@ -260,10 +260,10 @@ const [route, setRoute] = useState(false);
 
       // Єдиноразово додати до лінки product &yhugh=true
 
-      fetch(
-        `${INITIAL_URL}${URL_IDENTIFAIRE}?utretg=webview_open&jthrhg=${timestamp_user_id}`,
-      );
-      console.log('івент webview_open OneSignal');
+      //fetch(
+      //  `${INITIAL_URL}${URL_IDENTIFAIRE}?utretg=webview_open&jthrhg=${timestamp_user_id}`,
+      //);
+      //console.log('івент webview_open OneSignal');
     }
     //console.log('OneSignal: url:', event.notification.launchURL);
     //console.log('OneSignal: event:', event);
